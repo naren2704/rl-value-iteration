@@ -7,25 +7,16 @@ To develop a Python program to find the optimal policy for the given MDP using t
 The FrozenLake environment in OpenAI Gym is a gridworld problem that challenges reinforcement learning agents to navigate a slippery terrain to reach a goal state while avoiding hazards. The environment is closed with a fence, so the agent cannot leave the gridworld. The agent must determine the best actions to take from each state to maximize its reward.
 
 ## VALUE ITERATION ALGORITHM
-Initialize the value function for all states to zero.
-
-Iterate until the values converge, meaning changes become very small.
-
-For each state, evaluate all possible actions.
-
-Estimate expected rewards by considering next states and their probabilities.
-
-Update the value function by selecting the best action that maximizes future rewards.
-
-Repeat the process until the value function stops changing significantly.
-
-Extract the optimal policy by choosing the action that leads to the highest value for each state.
-
-Ensure the agent follows the best possible path to maximize rewards.
-
-Used in Markov Decision Processes (MDPs) where the environment is uncertain or stochastic.
-
-Guarantees finding the optimal policy, making it useful in reinforcement learning applications.
+1. Initialize the value function for all states to zero.
+2. Iterate until the values converge, meaning changes become very small.
+3. For each state, evaluate all possible actions.
+4. Estimate expected rewards by considering next states and their probabilities.
+5. Update the value function by selecting the best action that maximizes future rewards.
+6. Repeat the process until the value function stops changing significantly.
+7. Extract the optimal policy by choosing the action that leads to the highest value for each state.
+8. Ensure the agent follows the best possible path to maximize rewards.
+9. Used in Markov Decision Processes (MDPs) where the environment is uncertain or stochastic.
+10. Guarantees finding the optimal policy, making it useful in reinforcement learning applications.
 
 ## VALUE ITERATION FUNCTION
 #### Name: Thiyagarajan A
